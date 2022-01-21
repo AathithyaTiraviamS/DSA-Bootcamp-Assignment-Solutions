@@ -1,4 +1,4 @@
-package com.Java_DSA_Assignments;
+package com.Java_DSA_Assignments.First_Java_Solution;
 
 import java.util.Scanner;
 
