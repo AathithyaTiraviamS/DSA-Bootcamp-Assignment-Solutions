@@ -3,7 +3,7 @@ package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
 import java.util.Scanner;
 
 //Find Ncr and Npr
-public class Permutation {
+public class Intermediate_Q16 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter N and r(N>r): ");

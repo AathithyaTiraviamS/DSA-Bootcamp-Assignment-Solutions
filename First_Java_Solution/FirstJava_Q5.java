@@ -2,7 +2,7 @@ package com.Java_DSA_Assignments.First_Java_Solution;
 
 import java.util.Scanner;
 
-public class LargestNumber {
+public class FirstJava_Q5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

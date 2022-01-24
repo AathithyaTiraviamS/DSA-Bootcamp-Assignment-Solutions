@@ -2,7 +2,7 @@ package com.Java_DSA_Assignments.First_Java_Solution;
 
 import java.util.Scanner;
 
-public class Armstrong {
+public class FirstJava_Q9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number: ");

@@ -1,10 +1,8 @@
 package com.Java_DSA_Assignments.First_Java_Solution;
 
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Palindrone {
+public class FirstJava_Q8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

@@ -1,27 +1,32 @@
-package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
+package com.Java_DSA_Assignments.Functions;
 
 import java.util.Scanner;
 
-//Factorial program in java
-public class Factorial {
+public class Func_Q9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int num = input.nextInt();
-        if  (num == 0) {
+
+        Factorial(num);
+    }
+
+    private static void Factorial(int n) {
+        if  (n == 0) {
             System.out.println(1);
             return;
         }
-        if (num < 0) {
+        if (n < 0) {
             System.out.println("Enter valid number");
             return;
         }
         long fact = 1;
-        while(num > 0) {
-            fact *= num;
-            --num;
+        while(n > 0) {
+            fact *= n;
+            --n;
         }
         System.out.println(fact);
     }
 }
+

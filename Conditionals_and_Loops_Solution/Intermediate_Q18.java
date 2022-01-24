@@ -3,7 +3,7 @@ package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
 import java.util.Scanner;
 
 //Find if a number is palindrome is or not
-public class NumPalindrome {
+public class Intermediate_Q18 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

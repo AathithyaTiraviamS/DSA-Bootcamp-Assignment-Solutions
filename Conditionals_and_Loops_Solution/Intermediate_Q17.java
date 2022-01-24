@@ -3,7 +3,7 @@ package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
 import java.util.Scanner;
 
 //Reverse A String in java
-public class ReverseString {
+public class Intermediate_Q17 {
     public static void main(String[] args) {
        Scanner input =new Scanner(System.in);
 

@@ -2,38 +2,30 @@ package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
 
 import java.util.Scanner;
 
-//Perfect number in java
-public class PerfectNumber {
+//print all the factors of a number
+public class Basic_Q23 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int num = input.nextInt();
 
-        if (num == 1) {
-            System.out.println(1);
+        if (num <= 1) {
+            System.out.println("neither prime nor composite");
             return;
         }
-
-        int sum = 0;
-
+        System.out.print(1);
         int c = 2;
         while (c * c <= num) {
             if (num % c == 0) {
                 if (c * c == num) {
-                    sum += c;
+                    System.out.print("," + c);
                 } else {
-                    sum = sum + c + num/c;
+                    System.out.print("," + c + "," + num / c);
                 }
             }
             ++c;
         }
-        sum = sum + 1;
-        if(sum == num){
-            System.out.println("Perfect Number");
-        }
-        else {
-            System.out.println("Not a perfect number");
-        }
+        System.out.println("," + num);
     }
 }

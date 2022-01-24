@@ -3,7 +3,7 @@ package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
 import java.util.Scanner;
 
 // Subtract the product and sum of digits of an integer
-public class ProductAndSum {
+public class Basic_Q22 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

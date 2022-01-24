@@ -2,7 +2,7 @@ package com.Java_DSA_Assignments.Conditionals_and_Loops_Solution;
 
 import java.util.Scanner;
 
-public class SumOfNegativePositiveOddPositiveEven {
+public class Intermediate_Q27 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
